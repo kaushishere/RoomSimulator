@@ -30,7 +30,8 @@ pip install -r requirements.txt
 ```
 This will take 10-15 minutes so have a cuppa in the meantime.
 
-## 4. Run before_training.py
+# Quick Start
+## 1. Run before_training.py
 Open VSCode. Open your cloned repository. Open a new terminal and activate your `venv` in the terminal by:
 ```
 [name_of_venv]\Scripts\activate
@@ -41,10 +42,13 @@ python before_training.py
 ```
 A pygame window will open, showcasing the room's internal temperature throughout the day, when the agent is randomly controlling the heater. To learn more about the environment, see `env.py` file. If the framerate is too fast/slow, open `env.py` and edit the metadata within the RoomSimulator(Env) class.
 
-## 5. Run after_training.py
+## 2. Run after_training.py
 There are many pre-trained models to load - see `V1_outputs` and `V2_outputs` directories. The number in the filename signifies how many episodes the model trained for so `policy_network_180.keras` means this model trained for 180 episodes. Models trained for more episodes tend to perform better in this environment.
 
 Specify which model you'd like to load in the `after_training.py` file, where the `policy_network` variable is defined. Again, in the terminal run:
 ```
 python after_training.py
 ```
+
+# More Information
+More information on how the weather file and environment was constructed can be found in the `notebook.ipynb`.
