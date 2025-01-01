@@ -1,5 +1,6 @@
 # About
 This environment simulates a room's internal temperature profile for a Summer's day in the UK. 
+![Pygame window](media/video_readme.mp4)
 
 ## File Tree
 
