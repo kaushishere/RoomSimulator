@@ -1,5 +1,6 @@
 # About
-![video](https://github.com/user-attachments/assets/1e1bec25-cbab-471a-9d44-ac399b4c8b24.mp4)
+This environment simulates a room's internal temperature profile for a Summer's day in the UK. <br>
+![video](https://github.com/user-attachments/assets/1e1bec25-cbab-471a-9d44-ac399b4c8b24)
 
 ## File Tree
 
