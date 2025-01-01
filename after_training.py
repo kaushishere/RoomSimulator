@@ -3,8 +3,8 @@ from env import RoomSimulator
 from weather import OutdoorTemp
 
 # load environment & pre-trained model
-env = RoomSimulator(0.5,0.04,render_mode="human")
-policy_network = load_model(join('V1_outputs','policy_network_180.keras'))
+env = RoomSimulator(0.5,0.04,reward_mech='V1',render_mode="human")
+policy_network = load_model(join('V1_outputs','policy_network_5000.keras'))
 
 for ep in range(1):
     done = False

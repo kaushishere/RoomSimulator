@@ -228,7 +228,7 @@ class RoomSimulator(Env):
             temp_label = self.font.render(f"{self.min_temp+i*5}",True,self.black)
             self.screen.blit(temp_label,(65, y-7.5))
     
-        y_axis_label = pygame.transform.rotate(self.font.render('Room Temperature (°C)', True, self.black),90)
+        y_axis_label = pygame.transform.rotate(self.font.render('Temperature (°C)', True, self.black),90)
         y_axis_label_rect = y_axis_label.get_rect(center = (self.chart_xoffset/2 - 10,self.screen_height/2))
         self.screen.blit(y_axis_label, y_axis_label_rect)
 
@@ -291,6 +291,6 @@ class RoomSimulator(Env):
         Pauses the line chart output at the end of the day for X seconds
         """
         if self.current_timestep == len(t) - 1:
-            pygame.time.delay(5000)
+            pygame.time.delay(2000)
 
     

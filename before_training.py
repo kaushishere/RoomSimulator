@@ -2,7 +2,7 @@ from settings import *
 from env import RoomSimulator
 from weather import OutdoorTemp
 
-env = RoomSimulator(0.5,0.04,reward_mech='V2',render_mode="human")
+env = RoomSimulator(0.5,0.04,reward_mech='V1',render_mode="human")
 
 for ep in range(1):
     done = False

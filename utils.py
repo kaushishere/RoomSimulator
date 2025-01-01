@@ -4,6 +4,8 @@ Utilities Module containing helper functions for Agent Deep-Q learning
 
 import random
 import numpy as np
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 import tensorflow as tf
 from tensorflow.keras.losses import MSE
 

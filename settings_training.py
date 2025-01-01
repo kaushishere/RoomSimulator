@@ -10,6 +10,8 @@ from datetime import time as tim, datetime, timedelta
 import utils
 
 # Deep Learning
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 import tensorflow as tf
 from tensorflow.keras import Sequential, Input
 from tensorflow.keras.layers import Dense
