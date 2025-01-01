@@ -1,6 +1,6 @@
 # About
 This environment simulates a room's internal temperature profile for a Summer's day in the UK. <br>
-https://user-images.githubusercontent.com/fb51b4f/media/video_readme.mp4
+![video](media/video_readme.mp4)
 
 ## File Tree
 
