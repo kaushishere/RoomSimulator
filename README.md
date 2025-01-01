@@ -1,6 +1,9 @@
 # About
 This environment simulates a room's internal temperature profile for a Summer's day in the UK. 
-https://github.com/kaushishere/RoomSimulator/blob/main/media/video_readme.mp4
+<video width="640" height="360" controls>
+  <source src="https://github.com/kaushishere/RoomSimulator/blob/main/media/video_readme.mp4" type="video/mp4">
+</video>
+
 
 ## File Tree
 
