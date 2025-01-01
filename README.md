@@ -1,10 +1,5 @@
 # About
-This environment simulates a room's internal temperature profile for a Summer's day in the UK. <br>
-https://github-production-user-asset-6210df.s3.amazonaws.com/186634467/399578108-1e1bec25-cbab-471a-9d44-ac399b4c8b24.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250101%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250101T172959Z&X-Amz-Expires=300&X-Amz-Signature=18500a23e34fddaf7903b7e039ea5b75236eb56fb132b7188f49e8719cb54834&X-Amz-SignedHeaders=host
-<video width="640" height="360" controls>
-  <source src="https://github.com/user-attachments/assets/1e1bec25-cbab-471a-9d44-ac399b4c8b24.mp4" type="mp4">
-  Your browser does not support the video tag.
-</video>
+![video](https://github.com/user-attachments/assets/1e1bec25-cbab-471a-9d44-ac399b4c8b24.mp4)
 
 ## File Tree
 
