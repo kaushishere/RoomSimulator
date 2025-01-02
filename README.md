@@ -2,7 +2,7 @@
 This environment simulates a room's internal temperature profile for a Summer's day in the UK. <br>
 
 <video src="https://github.com/user-attachments/assets/e6ccf1ca-4d30-4f62-8422-bcf940ed0c37" width="352" height="720"></video>
-
+Animation made in pygame.
 
 ## File Tree
 
